@@ -4,7 +4,6 @@ const Navbar = () => {
     <div>
       <h5>Test</h5>
       <p>If you see this then everything is okey-dokey</p>
-    
     </div>
   )
 }
