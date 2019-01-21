@@ -4,7 +4,7 @@ const app = express();
 const PORT = 8080;
 
 // to do:
-// init sequelize
+
 // db set up
 // auth set up
 // route set up
