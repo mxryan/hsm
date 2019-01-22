@@ -1,0 +1,10 @@
+.contact {
+  font-size: 20px;
+  background-color: bisque;
+  text-align: end;
+  padding: 10px;
+  color: black;
+  width: 40%;
+  height: 50%;
+  border: red 2px solid;
+}
