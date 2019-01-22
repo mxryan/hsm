@@ -5,6 +5,15 @@ const UserSchema = new mongoose.Schema({
     type: String,
     trim: true,
     required: "Username is Required"
+  },
+  isAdmin: {
+    type: Boolean,
+    required: "Must specify privileges",
+    default: false
+  },
+  password: {
+    type: String,
+    required: "Password is required"
   }
 })
 
