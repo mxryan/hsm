@@ -1,7 +1,14 @@
 const express = require("express");
 const path = require("path");
 const app = express();
-const PORT = 8080;
+
+var PORT = process.env.PORT || 8080;
+
+// to do:
+// init sequelize
+// db set up
+// auth set up
+// route set up
 
 app.use(express.static(path.join(__dirname, "client/build")));
 
@@ -10,4 +17,4 @@ app.get("/", (req, res) => {
 })
 
 
-app.listen(PORT, ()=> console.log("server on"));
+app.listen(PORT, ()=> console.log("server on " + PORT));
