@@ -6,12 +6,13 @@ import Contact from "./components/Contact";
 import Orderform from "./components/Orderform";
 import Specials from "./components/Specials";
 import Testimonials from "./components/Testimonials";
-
+import "./App.css";
 
 class App extends Component {
   render() {
     return (
       <div className="App">
+      <div className="flex-container">
          <p>Hello world</p>
         <Navbar />
       
@@ -28,7 +29,7 @@ class App extends Component {
         <Contact />
 
       </div>
-
+</div>
     );
   }
 }
