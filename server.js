@@ -4,7 +4,8 @@ const mongoose = require("mongoose");
 const db = require("./models");
 const apiRoutes = require("./routes/api");
 const app = express();
-const PORT = 8080;
+
+var PORT = process.env.PORT || 8080;
 
 // to do:
 // auth set up
@@ -31,4 +32,4 @@ app.get("/", (req, res) => {
 })
 
 
-app.listen(PORT, ()=> console.log("server on"));
+app.listen(PORT, ()=> console.log("server on " + PORT));
