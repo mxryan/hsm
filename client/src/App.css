@@ -1,5 +1,5 @@
 .App {
-  background-color: #270101;
+  background-color: gray;
   background-repeat: no-repeat;
   background-attachment: fixed;
 }
@@ -8,4 +8,9 @@
   align-items: center;
   justify-content: center;
   flex-wrap: wrap;
+  justify-content: center;
 }
+
+
+@import url('https://fonts.googleapis.com/css?family=Engagement|Josefin+Sans');
+

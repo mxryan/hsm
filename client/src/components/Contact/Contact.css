@@ -1,11 +1,10 @@
-.contact {
+.Footer {
 
   background-color: bisque;
   text-align: center;
   padding: 10px;
   color: black;
-  width: 40%;
-  height: 50%;
   border: red 2px solid;
   margin: 5px;
+width: 50%;
 }

@@ -5,10 +5,9 @@ class Contact extends React.Component {
 
   render() {
     return (
-      <div className="contact">
-        <h3>
-          THIS WILL BE THE CONTACT AREA
-        </h3>
+      <div className="Footer">
+        
+       SPECIALS
       </div>
     );
   }
