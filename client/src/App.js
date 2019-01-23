@@ -13,7 +13,6 @@ class App extends Component {
     return (
       <div className="App">
       <div className="flex-container">
-         <p>Hello world</p>
         <Navbar />
       
         <Slideshow />

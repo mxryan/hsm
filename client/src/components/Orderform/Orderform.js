@@ -1,54 +1,45 @@
 import React from 'react';
-import {  Form, FormGroup, Label, Input, Row, Col } from 'reactstrap';
+import { Col, Row, Button, Form, FormGroup, Label, Input, FormText } from 'reactstrap';
 import "./Orderform.css";
-class Orderform extends React.Component {
+
+export default class Orderform extends React.Component {
+  state = {
+    name: "",
+    number: "",
+    email: "",
+    message: "",
+  }
+  
   render() {
-
     return (
+      
       <Form>
-        <Col xs="6">
-        <FormGroup>.col-6
-          <Label for="Name">Name</Label>
-          <Input type="textarea" name="text" />
-        </FormGroup>
-        </Col>
-
-        <Col xs="6">
-        <FormGroup>
-          <Label for="Number">Number</Label>
-          <Input type="textarea" name="text" />
-        </FormGroup>
-        </Col>
-        <Row>
-        <FormGroup><Col xs="6">.col-6</Col>
-          <Label for="Email">Email</Label>
-          <Input type="textarea" name="text" />
+      <Row form>
+        <Col md={6}>
+          <FormGroup>
+            <Label for="name">Name</Label>
+            <Input type="name" placeholder="Name" />
           </FormGroup>
-          </Row>
-        <FormGroup><Col xs="6">.col-6</Col>
-          <Label for="Name">How can I help?</Label>
-          <Input type="textarea" name="text" />
-        </FormGroup>
-        <button>submit</button>
-      </Form>
-     
-    
-    );
+        </Col>
+        <Col md={6}>
+          <FormGroup>
+            <Label for="number">Number</Label>
+            <Input type="text" placeholder="Phone number" />
+          </FormGroup>
+        </Col>
+      </Row>
+      <FormGroup>
+        <Label for="email">Email</Label>
+        <Input type="text"  placeholder="Email"/>
+      </FormGroup>
+      <FormGroup>
+        <Label for="message">Message</Label>
+        <Input type="textArea" placeholder="How can I help?" />
+      </FormGroup>
+      
+      <Button>Send</Button>
+    </Form>
+        
+    )
   }
 }
-
-export default Orderform;
-
-// {
-// 	order_id: efalehf12348123aflh,
-// 	name: suzy,
-// 	email: suzy@suzy.com,
-// 	order: [
-// 		{
-// 		item: chocolate type 1,
-// 		quant: 5
-// 		},{
-// 		item: lolipops,
-// 		quant: 9000
-// 		}
-//   ]

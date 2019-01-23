@@ -6,9 +6,9 @@ class Slideshow extends React.Component {
   render() {
     return (
       <div className="Slideshow">
-        <h1>
+        <h5>
         THIS WILL BE THE SLIDESHOW AREA
-        </h1>
+        </h5>
         </div>
     );
   }

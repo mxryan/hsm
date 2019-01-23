@@ -6,9 +6,9 @@ class Contact extends React.Component {
   render() {
     return (
       <div className="contact">
-        <h1>
+        <h3>
           THIS WILL BE THE CONTACT AREA
-        </h1>
+        </h3>
       </div>
     );
   }

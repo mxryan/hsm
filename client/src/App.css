@@ -1,8 +1,11 @@
 .App {
-  background-color: blanchedalmond;
-  
+  background-color: #270101;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
 }
 .flex-container {
   display: flex;
+  align-items: center;
+  justify-content: center;
   flex-wrap: wrap;
 }

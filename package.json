@@ -9,6 +9,7 @@
     "mysql2": "^1.6.4",
     "react": "^16.7.0",
     "react-dom": "^16.7.0",
+    "react-slideshow-image": "^1.0.10",
     "reactstrap": "^7.1.0",
     "sequelize": "^4.42.0"
   },

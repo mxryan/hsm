@@ -6,9 +6,9 @@ class Testimonials extends React.Component {
   render() {
     return (
       <div className="testimonials">
-        <h1>
+        <h4>
         THIS WILL BE THE TESTIMONIALS AREA
-        </h1>
+        </h4>
         </div>
     );
   }

@@ -4,8 +4,12 @@ import "./Navbar.css";
 const Navbar = () => {
   return (
     <div className="Navbar">
-      <h5>Test</h5>
-      <p>If you see this then everything is okey-dokey</p>
+     
+      <ul>
+        <li><a href="/">Specials</a></li>
+        <li><a href="/">About Us</a></li>
+        <li><a href="/">Contact</a></li>
+      </ul>
     </div>
   )
 }
